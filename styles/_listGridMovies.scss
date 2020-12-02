@@ -1,6 +1,7 @@
 .listGridAllMovies {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  place-items: center;
   padding: 20px;
   div {
     margin-bottom: var(--ms4);

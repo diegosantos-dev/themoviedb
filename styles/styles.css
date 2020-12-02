@@ -236,6 +236,16 @@ header #searchBar input:focus {
   place-items: center;
 }
 
+.glider .glider-track {
+  width: 100% !important;
+}
+
+@media (min-width: 768px) {
+  .glider .glider-track {
+    width: initial !important;
+  }
+}
+
 .listFilms {
   padding: var(--ms3) 60px;
 }
@@ -362,6 +372,7 @@ header #searchBar input:focus {
   display: grid;
   -ms-grid-columns: (minmax(225px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  place-items: center;
   padding: 20px;
 }
 

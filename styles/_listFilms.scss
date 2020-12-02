@@ -3,6 +3,14 @@
   display: flex;
   place-content: center;
   place-items: center;
+  .glider-track {
+    width: 100% !important;
+  }
+  @media (min-width: 768px) {
+    .glider-track {
+      width: initial !important;
+    }
+  }
 }
 .listFilms {
   padding: var(--ms3) 60px;
